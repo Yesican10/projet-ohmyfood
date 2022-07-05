@@ -1,0 +1,542 @@
+
+@media only screen and (min-width : 375px) and (max-width : 768px){
+
+    body{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+    
+     
+    }
+
+ /*SECTION HEADER */
+   
+   .grasTexte {
+
+     font-weight: bold;
+     font-size: 20px;
+    }
+    .flexBetween {
+
+        display: flex;
+        justify-content: space-between;         
+        align-items:flex-start;
+    }
+
+    header {
+        margin: 0px;
+        overflow: hidden;
+    }
+    .main-header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+    header a>img.ohmyfood {
+      
+        height: 29px;
+        margin-top: 18px;
+        margin-bottom: 14px;
+    }
+
+    /* SECTION RECHERCHER */
+
+    .proj-ohmy {
+        background-color: #ebebeb;
+        box-shadow: 0px 7px 2px 10px #d9d9dd;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 17px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }  
+    .proj-ohmy__map {
+        font-size: 16px;  
+        padding-left: 104px;
+        padding-right: 10px;
+        position: static;
+        display: block; 
+    }
+    input {
+        border: none;
+        background-color: #ebebeb;
+        padding-right: 0px;
+        padding-left: 4px;
+        width: 100%;
+        position: static;
+        display: block; 
+    }
+    .proj-ohmy__city {
+        font-size: 17px;
+        padding-left: 3px
+    }
+
+    /* SECTION RESERVER */
+
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 9px;
+        padding-left: 30px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+
+    p {
+        font-weight: 100;
+        padding-left: 28px;
+    }
+
+    figcaption {
+        margin-top: 12px;
+        line-height: 11px;
+        color: black;
+    }
+     
+    .proj-ohmy__btn {     
+        color: white;                      
+        cursor: pointer;
+        border-radius: 28px;
+        font-size: 13px;
+        border: none;
+        height: 62px;
+        width: 192px;
+        margin-top: 27px;
+        background: linear-gradient(#FF79DA, #9356DC);
+    }
+    .proj-ohmy__padding {
+        padding-top: 13px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 80px;
+    }
+    .proj-ohmy__textAlign {
+        text-align: center;
+    }
+    .proj-ohmy__paraMargin {
+        margin-top: 19px;
+    }
+    .proj-ohmy__backColor {
+        background-color: #f6f6f6;
+    }
+
+    /* FONCTIONNEMENTS */
+
+    .proj-ohmy__sectpadding {
+        padding-top: 22px;
+        margin-left: 20px;
+        margin-right: 30px   
+    }
+    .proj-ohmy__titrefonct {
+        
+        margin-bottom: 35px;   
+    }
+    .proj-ohmy__div {
+        padding-bottom: 17px;    
+    }
+    .proj-ohmy__div3 {
+        padding-bottom: 17px;    
+    }
+    .proj-ohmy__btndiv {  
+        background-color: #f6f6f6;  
+        width: 100%;
+        height: 90px;
+        margin-left: 9px;
+        padding-right: 0px;
+        padding-left: 0px;
+        border: none;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 17px;
+        font-family: 'Roboto';
+    } 
+
+    .proj-ohmy__btndiv3 {
+        background-color: #f4ebfe; 
+        width: 100%;
+        height: 90px;
+        margin-left: 9px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 90px;
+        border: none;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 17px;
+        font-family: 'Roboto';
+    }
+  
+    .proj-ohmy__icondiv {
+        padding-right: 0px; 
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: larger;
+        color: gray;   
+    }
+    .proj-ohmy__icondiv3 { 
+        color: #9356DC; 
+        padding-right: 0px; 
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: larger 
+    }
+    .proj-ohmy__iconmbers1 {
+        border-radius: 30px; 
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+        padding-top: 6px;
+        color: white;
+        background-color: #9356DC; 
+        margin-left: -10px;
+        font-size: 11px;     
+    }
+    .proj-ohmy__iconmbers2 {
+        border-radius: 30px; 
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+        padding-top: 6px;
+        color: white;
+        background-color: #9356DC; 
+        margin-left: -10px;
+        font-size: 11px;
+    }
+    .proj-ohmy__iconmbers3 {
+        border-radius: 30px; 
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+        padding-top: 6px;
+        color: white;
+        background-color: #9356DC; 
+        margin-left: -10px;
+        font-size: 11px;
+         
+    }
+    .proj-ohmy__borders {
+        box-shadow: 1px 9px 3px #f1f1f1;
+        border-radius: 17px 17px 17px 17px; 
+    }
+
+    /* SECTION RESTAURANTS */
+
+    .proj-ohmy__sectResto {
+         
+        width: 100%;   
+        background-color: #f6f6f6;
+        margin-bottom: 30px;
+        height: 1741px;
+    }
+    .proj-ohmy__titreResto {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .proj-ohmy__imgResto {
+    
+        width:100%;
+        height: 234px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+       
+    }
+    .proj-ohmy__imgMarginResto {
+        margin-left: 17px;
+        margin-right: 17px;
+        padding-right: 1px;
+    }
+
+    .proj-ohmy__imgContainerResto {
+    
+        height: 350px;
+        margin-bottom: 40px;
+        border: none;
+        display: flex;
+        font-size: 17px;
+        font-family: 'Roboto';
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 14px 14px 14px  14px #f1f1f1;   
+    }
+    .proj-ohmy__imgIconheartResto {
+        float: right;
+        line-height: 0px;
+        position: static;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        padding-right: 20px;
+        font-size: 26px;
+    }
+    .container {
+        display: inline-block;
+        position: relative;
+    }
+    .container .text {
+        background: #99E2D0;
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        font-family: 'Roboro';
+        margin-bottom: 4px;
+        margin-right: 15px;
+        padding-right: 4px;
+        right: 0;
+        top: 7%;
+        color: rgb(4, 86, 4) ;
+        width: 29%;
+    }
+    .proj-ohmy__étiquette {
+        margin-bottom: 12px;
+        margin-top: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* FOOTER */
+     
+    footer {
+
+        height: 360px;
+        overflow: hidden;
+        max-width: 100%;
+        margin-top: -29px;
+        padding: 0px;
+        flex-direction: column;
+        display: block;
+        background-color: rgb(59, 58, 58);
+        margin-bottom: 30px;
+        color: #f1f1f1;
+    }
+    .proj-ohmy__fontfamilylogo {
+        font-family: 'Shrikhand';
+        font-size: 24px;
+    }
+    a {
+        color: #f1f1f1;
+       align-items: center;
+       text-decoration: none;
+    }
+    ul {
+
+        list-style-type: none;
+        padding-left: 30px;
+    }
+
+    li {
+
+        line-height: 40px;
+    }
+    li a {
+      
+        font-size: 18px;
+    }
+    .proj-ohmy__iconfooter {
+        font-size: 25px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .proj-ohmy__iconsizeHands {
+        font-size: 18px;
+    }
+
+    /* FICHIERS PAGES HTML */
+
+    .proj-ohmy__imgheader {
+        width: 100%;
+        height: 343px;
+
+    }
+    .proj-ohmy__prix {
+       
+        line-height: 0px;
+        position: static;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        padding-right: 24px;
+        font-size: 15px;
+        float: right;
+    }
+    .proj-ohmy__btndivpages {
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 90px;
+    }
+    .proj-ohmy__ContainerMenus {
+    
+        height: 100px;
+        border: none;
+        font-size: 17px;
+        font-family: 'Roboto';
+        background-color: white;
+        box-shadow: 1px 9px 3px #f1f1f1; 
+        margin-bottom: 18px;
+        width: 92%;
+        text-align: start;
+    }
+    h4 {
+
+        padding-left: 19px;
+        margin-top: 40pX;
+        font-weight: 100;
+        font-size: 20px;
+    }
+    .borderh4 {
+
+        margin-left: 30px;
+        border-bottom: 4px solid #99E2D0;
+        width: 40px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+    .parent {
+        position: relative;
+        width: 100%;
+    }
+    .child1 {
+        position: absolute;
+        width: 100%;
+        opacity: 1;  
+    }
+    .child2 {
+        z-index: 1;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 1763px;
+        margin-top: 281px;
+        margin-bottom: 79px;
+        padding-top: 47px;
+        border-radius: 71px 71px 0px 0px;
+        background-color: #f6f6f6;
+    }
+    .proj-ohmy__imgIconheartpages {
+        float: right;
+        line-height: 0px;
+        position: static;
+        margin-top: -32px;
+        margin-bottom: 0px;
+        padding-right: 37px;
+        font-size: 26px;
+    }
+    .h1pages {
+        font-weight: 300;
+        margin-bottom: 9px;
+        padding-left: 29px;
+        padding-right: 46px;
+        margin-top: 0px;
+        font-size: 27px;
+    }
+    .proj-ohmy__Iconflechespages {
+
+        font-size: larger;
+        color: black;
+    }
+    header a > img.ohmyfoodpages {
+       
+        margin-top: 18px;
+        margin-bottom: 14px;
+        padding-top: 0px;
+        margin-left: 73px;
+        margin-right: 99px;
+    }
+    .main-headerpages {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+       }
+    header a > img.ohmyfoodpages {
+        height: 29px;
+        margin-top: 18px;
+        margin-bottom: 14px;
+        margin-right: 101px;
+      }
+    .h5pages {
+      
+          
+        margin-bottom: 7px;
+        line-height: 0px;
+        padding-left: 7px;
+        font-size: 19px;
+        margin-top: 21px;
+    }
+    .paraPages {
+        font-size: 15px;
+        margin-top: 20px;
+        padding-left: 7px;
+        
+    }
+    .proj-ohmy__btnPages {
+        color: white;
+        cursor: pointer;
+        border-radius: 28px;
+        font-size: 15px;
+        border: none;
+        height: 62px;
+        width: 157px;
+        margin-top: 47px;
+        margin-left: 105px;
+        background: linear-gradient(#FF79DA, #9356DC);
+    
+    }
+    .proj-ohmy__footerPages {
+        height: 360px;
+        overflow: hidden;
+        max-width: 100%;
+        margin-top: 120px;
+        padding: 0px;
+        flex-direction: column;
+        display: block;
+        background-color: rgb(59, 58, 58);
+        margin-bottom: 30px;
+        color: #f1f1f1;
+    
+    }
+    article {
+        overflow: hidden;
+    }
+
+    .proj-ohmy__inputMsg {
+
+        height: 175px;
+        width: 93%;
+    }
+    .proj-ohmy__inputNameEmail {
+
+        height: 40px;
+        width: 93%;
+    }
+    .proj-ohmy__sendContact {
+        
+        padding-left: 6px;
+        padding-right: 6px
+    }
+    .proj-ohmy__sendbtn {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 29px;
+        margin-top: 10px;
+        background: linear-gradient(#FF79DA, #9356DC);
+        border: none;
+        border-radius: 20px;
+    }
+    .proj-ohmy__h3Contact {
+
+        margin-left: 27px;
+        margin-top: 81px;
+        margin-bottom: 41px;
+    }
+
+
+ 
+}
+    
