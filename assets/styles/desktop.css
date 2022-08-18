@@ -1,7 +1,27 @@
 
-html, body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@media all and (min-width: 992px) and (max-width: 1800px){
+
+    .proj-ohmy__fontfamilylogo {
+    
+        font-size: 25px;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        
+        padding: 5px 35px;
+        margin-top: 110px;
+    }
+    .ul2 {
+
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-top: 16px;
+        justify-content: space-between;
+        display: flex;
+    }
+    
 
 }

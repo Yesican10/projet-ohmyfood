@@ -3,20 +3,25 @@
     <head> 
         <meta charset="utf-8" />  
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin  type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/fontawesome/css/all.css">
-        <link rel="stylesheet" href="assets/styles/desktop.css">
+        <link rel="stylesheet" href="assets/fontawesome/css/all.css" type="text/css"/>
+        <link rel="stylesheet" href="assets/styles/desktop.css" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="screen" href="assets/styles/tablet.css" type="text/css" />
         <link rel="stylesheet" media="screen" href="assets/styles/mobile.css" type="text/css" />
+       
     
         <title>ohmyfood</title>
     </head>
 
     <body>
+      <div class="loader">
+
+      <i class="fa-solid fa-spinner fa-3x fa-spin color__spin"></i>
+
+      </div>
 
         <header class="main-header proj-ohmy__textAlign"> 
           <a href="index.html"> 
@@ -25,26 +30,28 @@
 
           <div class="proj-ohmy">
             <i class="fa-solid fa-xs fa-location-dot proj-ohmy__map"></i> 
-            <Input class="proj-ohmy__city" type="search" value="Paris, Belleville">
+            <span class="proj-ohmy__city">Paris, Belleville</span>
           </div>
-          
+ 
         </header>  
         
         <section class="proj-ohmy__padding proj-ohmy__textAlign proj-ohmy__backColor">
            <h1>Réservez le menu qui vous convient</h1>
-           <p class="proj-ohmy__paraMargin">Découvrez des restauration d'exception, sélectionnés par nos soins.</p>
+           <p class="proj-ohmy__paraMargin">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
            <button class="proj-ohmy__btn grasTexte">Explorer nos restaurants</button>
         </section>
 
         <section class="proj-ohmy__sectpadding">
           <h2 class="proj-ohmy__titrefonct">Fonctionnement</h2>
-          <div>
+          
+          <div class="proj-ohmy__column">
 
             <div>
               
               <button class="proj-ohmy__btndiv proj-ohmy__borders">
                 <span class="proj-ohmy__iconmbers1">1</span>
-                <i class="fa-solid fa-mobile-screen-button proj-ohmy__icondiv"></i>Choisissez un restaurent</button>
+                <i class="fa-solid fa-mobile-screen-button proj-ohmy__icondiv">   
+                </i>Choisissez un restaurant</button>
 
             </div>
 
@@ -62,12 +69,16 @@
                 <span class="proj-ohmy__iconmbers3">3</span>
                 <i class="fa-solid fa-store proj-ohmy__icondiv3"></i>Dégustez au restaurant</button>
 
+            </div>
+
           </div>
+          
         </section>
+        
 
         <section class="proj-ohmy__sectResto">
            <h2 class="proj-ohmy__titreResto">Restaurants</h2>
-             <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/page3.html">
+             <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/la-palette-du-gout.html">
              <div>
               <figure class="proj-ohmy__imgMarginResto proj-ohmy__imgContainerResto">
 
@@ -76,23 +87,30 @@
                   src="assets/images/restaurants/palette-gout.jpg" alt="palette">
 
                      <div class="text">
-                      <h4 class="proj-ohmy__étiquette">Nouveau</h4>
+                      <h5 class="proj-ohmy__étiquette">Nouveau</h5>
                      </div>  
                 </div>
 
                 <figcaption>
 
+                  <div class="proj-ohmy_flex">
                    <p class="grasTexte">La palette du goût</p>
-                   <i class="far fa-heart proj-ohmy__imgIconheartResto"></i>
-                   <p>Ménilmontant</p>
-                                   
+
+                   <div class="heart">
+                    <i class="far fa-heart heart1"></i> 
+                    <i class="fa-solid fa-heart heart2"></i>
+                   </div>
+              
+                  </div>
+                     <p>Ménilmontant</p>
+                                                 
                 </figcaption>
 
               </figure>
              </div>
             </a>
 
-            <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/page2.html">
+            <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/la-note-enchantee.html">
 
 
              <div>
@@ -103,49 +121,62 @@
                   src="assets/images/restaurants/note-enchantee.jpg" alt="enchantee">
 
                      <div class="text">
-                      <h4 class="proj-ohmy__étiquette">Nouveau</h4>
+                      <h5 class="proj-ohmy__étiquette">Nouveau</h5>
                      </div>  
                 </div>
 
                 <figcaption>
-                  
-                   <p class="grasTexte">La note enchantée</p>
-                   <i class="far fa-heart proj-ohmy__imgIconheartResto"></i>
-                   <p>Charonne</p>
-                                   
+
+                  <div class="proj-ohmy_flex">
+
+                    <p class="grasTexte">La note enchantée</p>
+
+                    <div class="heart">
+                      <i class="far fa-heart heart1"></i> 
+                      <i class="fa-solid fa-heart heart2"></i>
+                     </div>
+                    
+                  </div>
+                    <p>Charonne</p>
+
                 </figcaption>
 
               </figure>
              </div>
             </a>
 
-            <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/page1.html">
+            <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/a-la-francaise.html">
 
              <div>
+
               <figure class="proj-ohmy__imgMarginResto proj-ohmy__imgContainerResto">
 
                 <div class="container">
                   <img class="proj-ohmy__imgResto"
                   src="assets/images/restaurants/a-la-francaise.jpg" alt="française">
-
-                     <div class="text">
-                      <h4 class="proj-ohmy__étiquette">Nouveau</h4>
-                     </div>  
                 </div>
 
                 <figcaption>
+                  <div class="proj-ohmy_flex">
                   
                    <p class="grasTexte">Á la française</p>
-                   <i class="far fa-heart proj-ohmy__imgIconheartResto"></i>
-                   <p>Cité Rouge</p>
+                   
+                   <div class="heart">
+                    <i class="far fa-heart heart1"></i> 
+                    <i class="fa-solid fa-heart heart2"></i>
+                   </div>
+
+                  </div>
+                    <p>Cité Rouge</p>               
                                    
                 </figcaption>
 
               </figure>
+
              </div>
             </a>
 
-            <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/page4.html">
+            <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/le-delice-des-sens.html">
 
             <div>
               <figure class="proj-ohmy__imgMarginResto proj-ohmy__imgContainerResto">
@@ -153,16 +184,20 @@
                 <div class="container">
                   <img class="proj-ohmy__imgResto"
                   src="assets/images/restaurants/delices-sens.jpg" alt="delice">
-
-                     <div class="text">
-                      <h4 class="proj-ohmy__étiquette">Nouveau</h4>
-                     </div>  
                 </div>
 
                 <figcaption>
-                   <p class="grasTexte">Le délice des sens</p>
-                   <i class="far fa-heart proj-ohmy__imgIconheartResto"></i>
-                   <p>Folie-Méricourt</p>
+
+                  <div class="proj-ohmy_flex">
+                    <p class="grasTexte">Le délice des sens</p>
+                    
+                    <div class="heart">
+                      <i class="far fa-heart heart1"></i> 
+                      <i class="fa-solid fa-heart heart2"></i>
+                    </div>
+
+                  </div> 
+                    <p>Folie-Méricourt</p>
                                    
                 </figcaption>
               </figure>
@@ -177,21 +212,21 @@
           <p class="proj-ohmy__fontfamilylogo">ohmyfood</p>
 
           <nav>
-            <ul>
+            <ul class="ul2">
               <li><i class="fas fa-utensils proj-ohmy__iconfooter"></i>
-                <a href="">Proposer un restaurant</a>
+                <a href="#">Proposer un restaurant</a>
               </li>
 
               <li><i class="fas fa-hands-helping proj-ohmy__iconfooter proj-ohmy__iconsizeHands"></i>
-                <a href="">Devenir partenaire</a>
+                <a href="#">Devenir partenaire</a>
               </li>
 
               <li>
-                <a href="">Mentions légales</a>
+                <a href="#">Mentions légales</a>
               </li>
 
                 <li>
-                  <a href="file:///C:/Users/HP/Desktop/projet-ohmyfood/Contact.html">Contact</a>
+                  <a href="mailto:contact@gmail.com">Contact</a>
 
               </li>
 
