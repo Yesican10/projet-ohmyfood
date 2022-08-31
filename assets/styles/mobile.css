@@ -17,7 +17,7 @@
    .grasTexte {
 
         font-weight: bold;
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .flexBetween {
@@ -41,9 +41,9 @@
     header a>img.ohmyfood {
       
         height: 28px;
-        margin-top: 18px;
-        margin-bottom: 14px;
-        margin-left: 23px;
+        margin-top: 22px;
+        margin-bottom: 11px;
+        margin-left: 20px;
     }
 
     /* SECTION RECHERCHER */
@@ -80,7 +80,7 @@
 
     figcaption {
         margin-top: 2px;
-        line-height: 5px;
+        line-height: 3px;
         color: black;
         margin-left: 13px;
         margin-right: 25px;
@@ -94,10 +94,11 @@
         border: none;
         height: 43px;
         width: 204px;
-        margin-top: 10px;
+        margin-top: 16px;
         background: linear-gradient(to bottom right,#FF79DA, #9356DC);
         margin-right: 10px;
         box-shadow: 14px 19px 15px #dad9d9;
+        margin-bottom: 5px;
     }
 
     .proj-ohmy__btn:hover {
@@ -137,8 +138,8 @@
 
     .proj-ohmy__titrefonct {
         
-        margin-bottom: 25px; 
-        margin-top: 28px;  
+        margin-bottom: 21px; 
+        margin-top: 20px;  
         font-size: 22px;
     }
 
@@ -158,7 +159,7 @@
         padding-right: 0px;
         padding-left: 0px;
         border: none;
-        margin-bottom: 27px;
+        margin-bottom: 22px;
         display: flex;
         justify-content: start;
         align-items: center;
@@ -198,21 +199,30 @@
         background-color: #f8f3fb;
 
     }
+
+    .proj-ohmy__icondiv1 {
+        margin-right: 24px;
+        margin-left: 18px;
+        font-size: 19px;
+        color: gray;
+
+
+    }
   
-    .proj-ohmy__icondiv {
-        padding-right: 0px; 
-        margin-left: 19px;
+    .proj-ohmy__icondiv2 {
+
+        margin-left: 18px;
         margin-right: 21px;
-        font-size: 18px;
+        font-size: 16px;
         color: gray;   
     }
 
     .proj-ohmy__icondiv3 { 
         color: #9356DC; 
         padding-right: 0px; 
-        margin-left: 19px;
-        margin-right: 21px;
-        font-size: 18px; 
+        margin-left: 18px;
+        margin-right: 19px;
+        font-size: 16px; 
     }
 
     .proj-ohmy__iconmbers1 {
@@ -265,23 +275,24 @@
         padding-top: 44px;
         padding-left: 20px;
         padding-bottom: 0px;
-        margin-bottom: 16px;
+        margin-bottom: 19px;
         font-size: 22px;
     }
 
     .proj-ohmy__imgResto {
     
         width:100%;
-        height: 262px;
+        height: 177px;
         object-fit: cover;
         border-radius: 20px 20px 0 0;
+        
     }
 
     .proj-ohmy__imgContainerResto {
     
-        height: 341px;
+        height: 244px;
         border: none;
-        font-size: 17px;
+        font-size: 15px;
         display: flex;
         font-family: 'Roboto';
         flex-direction: column;
@@ -289,6 +300,7 @@
         border-radius: 17px;
         box-shadow: 14px 14px 14px 14px #f1f1f1;   
         margin: 15px;
+        margin-bottom: 18px;
     }
 
     .proj-ohmy_flex {
@@ -297,7 +309,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 13px;
-        margin-right: 17px;
+        margin-right: 23px;
     }
     
     .container {
@@ -309,7 +321,7 @@
         background: #99E2D0;
         z-index: 1;
         position: absolute;
-        margin-right: 15px;
+        margin-right: 12px;
         padding-right: 4px;
         right: 0;
         top: 7%;
@@ -348,9 +360,9 @@
 
     .proj-ohmy__fontfamilylogo {
         font-family: 'Shrikhand';
-        font-size: 19px;
+        font-size: 18px;
         margin-top: 13px;
-        margin-bottom: 6px;
+        margin-bottom: -3px;
     }
 
     a {
@@ -369,16 +381,17 @@
 
     li a {
       
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .proj-ohmy__iconfooter {
 
         margin-right: 8px;
+        font-size: 13px;
     }
 
     .proj-ohmy__iconsizeHands {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     /* FICHIERS PAGES HTML */
@@ -394,20 +407,20 @@
         display: flex;
         flex-direction: row-reverse;
         margin-right: 36px;
-        margin-top: -37px;
+        margin-top: -43px;
     }
 
     .proj-ohmy__prix {
        
         font-size: 13px;
         font-weight: bold;
-        margin-right: 20px;
+        margin-right: 24px;
     }
     .backgr__check {
         background-color: rgb(153 226 208);
         width: 54px;
-        margin-right: -55px;
-        padding-left: 2px;
+        margin-right: -56px;
+        padding-left: 1px;
         -webkit-animation: backgr__check 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	    animation: backgr__check 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   
@@ -584,6 +597,8 @@
     }
     ol {
         padding: 0px;
+        margin-top: -7px;
+        margin-bottom: -29px;
     }
     .item__menu--hidden {
         display: none;
@@ -639,17 +654,17 @@
         margin-left: 20px;  
         font-size: 13px;
         font-weight: 300;  
-        margin-top: 42px;
+        margin-top: 58px;
         padding-bottom: 2px;
     }
 
     .bordh4 {
-        border-bottom: 4px solid rgb(153 226 208);
+        border-bottom: 3px solid rgb(153 226 208);
     }
 
     h5 {
 
-        border-bottom: 4px solid #99E2D0;  
+        border-bottom: 2px solid #99E2D0;  
     }
 
     .parent {
@@ -667,7 +682,7 @@
         z-index: 1;
         margin-right: 0px;
         margin-left: 0px;
-        margin-top: 203px;
+        margin-top: 249px;
         margin-bottom: 79px;
         padding-top: 47px;
         border-radius: 35px 35px 0px 0px;
@@ -751,7 +766,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        width: calc(100% - 2rem);
+        width: calc(100% - 5rem);
         display: inline-block;
     }
     
@@ -761,9 +776,9 @@
         border-radius: 28px;
         font-size: 15px;
         border: none;
-        height: 37px;
-        width: 42%;
-        margin-top: 46px;
+        height: 43px;
+        width: 45%;
+        margin-top: 72px;
         margin-left: 106px;
         background: linear-gradient(to bottom right,#FF79DA,#9356DC);
         font-weight: bold;
@@ -771,6 +786,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: -15px;
     }
     .proj-ohmy__btnPages:hover {
         background: linear-gradient(to bottom right,#ff8fdf, #a470e4);
